@@ -40,6 +40,8 @@ let itemName = document.createElement('span');
 //create the button element
 let actionButton = document.createElement('button');
 actionButton.appendChild(document.createTextNode('Add to cart'));//add text to the button
+actionButton.className = "action-btn"; //add class name
+actionButton.id = item.id; //add id 
 
 //add the name and price to each product
 itemName.innerText = '\n'+item.name + '\n UGX ' + item.price +'\n';
