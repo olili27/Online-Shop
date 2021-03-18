@@ -59,13 +59,12 @@ background-color: orange;
  #form>label{
      /* background-color: yellow; */
      flex-basis: 3;
-     border: 1px solid #eee;
+     border: 2px solid #eee;
      padding: 0.1rem;
      width: 50rem;
      display: flex;
      justify-content: space-between;
      align-items: center;
-     /* box-shadow: 1px 1px 1px 1px #eee; */
  }
  /* nav form label */
 
@@ -216,7 +215,7 @@ background-color: orange;
 
 .row{
     display: flex;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .footer a{
@@ -258,7 +257,7 @@ background-color: orange;
 }
 
 .fab{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     padding: 1rem;
 }
 
@@ -293,4 +292,36 @@ ul{
 }
 
  /* footer */
+
+ /* media query */
+ @media only screen and (max-width:1000px){
+
+    nav{
+        display: none;
+    }
+
+    #product-display>ul{
+        display: grid;
+        grid-template-columns:auto auto;
+        /* grid-gap: 25px 15px;
+        padding: 1rem; */
+        background-color: black;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .footer-col-2{
+        order: -1;
+    }
+
+    .footer-col-1{
+        text-align: center;
+    }
+
+ }
+ /* media query */
  
