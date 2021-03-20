@@ -134,21 +134,28 @@ background-color: orange;
 
  .nav-links>a{
      font-size: 1.5rem;
+     color: #888;
+ }
+ .nav-links>a:hover{
+     color: rgb(255, 197, 91);
+     text-decoration: none;
  }
  /* nav bar links */
 
-/* menu icon */
-#menu{
+/* cart icon */
+#cart{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.fa-bars{
-    font-size: 2rem;
+#fa-cart-plus{
+    font-size: 3rem;
     cursor: pointer;
+    display: none;
+    /* color: #fff; */
     /* display: none; */
 }
-/* menu icon */
+/* cart icon */
 
 
  /* products displayed */
