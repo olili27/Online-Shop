@@ -9,7 +9,7 @@
 /* body */
 body{
     margin: auto;
-    /* background: #33313138; */
+    /* background: black; */
  }
  /* body */
 
@@ -165,11 +165,13 @@ background-color: orange;
      display: flex;
      justify-content: center;
      align-items: center;
-     background-color: #fff;
+     /* background-color: #fff; */
+     background-color:#eee ;
  }
 
    #products{
-    background: #416586;
+    /* background: #416586; */
+    background-color: #fff;
      width: 100%;
      margin: 0 5rem;
      min-height: 100vh;
@@ -194,9 +196,7 @@ background-color: orange;
  #product-display > ul >li{
     list-style: none;
     width: 20rem;
-    border: 1px solid #044479 ;
     text-align: center;
-    box-shadow: 2px 2px 5px 3px #337ab5;
     transition: .5s;
  }
 
@@ -223,6 +223,7 @@ background-color: orange;
         width: 14rem;
         color: #fff;
         background: #337ab5;
+        background: orange;
         outline: none;
         border: none;
         border-radius: 3px;
