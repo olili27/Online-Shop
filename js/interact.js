@@ -53,4 +53,7 @@ itemName.innerText = '\n'+item.name + '\n UGX ' + item.price +'\n';
     productList.appendChild(listGroup);
 });
 
+let cart = []; // array of selected items to be bought
+
+
 
